@@ -51,6 +51,7 @@ src/
     storage/            Local storage adapter
     styles/             Global UI styles
     ui/                 Reusable UI primitives
+config/                 Vite, TypeScript, and ESLint configuration
 ```
 
 ## Development

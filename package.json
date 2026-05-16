@@ -6,10 +6,10 @@
   "license": "GPL-3.0-or-later",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "dev": "vite --config config/vite.config.ts",
+    "build": "tsc -b && vite build --config config/vite.config.ts",
+    "lint": "eslint . --config config/eslint.config.js",
+    "preview": "vite preview --config config/vite.config.ts"
   },
   "dependencies": {
     "lucide-react": "^1.16.0",
